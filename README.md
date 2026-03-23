@@ -30,6 +30,8 @@ The project implements a lightweight analytics pipeline that:
 
 The output is a business-facing analytics artifact that supports chargeback validation, supplier monitoring, and regional performance management.
 
+Tableau: https://public.tableau.com/app/profile/ashlesha.sanjay.kadam/viz/TeslaSOS-SupplierChargebackComplianceIntelligence/TeslaSOS-SupplierChargebackComplianceIntelligence2
+
 ---
 
 ## Repository Structure

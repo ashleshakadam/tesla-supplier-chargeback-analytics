@@ -1,47 +1,42 @@
-# SOS Supplier Chargeback Intelligence System
+# Tesla SOS — Supplier Chargeback & Compliance Intelligence
 
-## Business Problem:
-Supplier non-compliance and chargeback disputes cause revenue leakage and operational inefficiencies.
+An end-to-end supply chain analytics project that models supplier non-compliance, chargeback exposure, dispute outcomes, and regional performance using Python, SQL, and Tableau.
 
-## Solution:
-Built an end-to-end chargeback analytics system tracking supplier performance, compliance, disputes, and penalties.
-Tableau Public: https://public.tableau.com/newWorkbook/dda1abd7-82d9-4afd-8041-96250f4861b9#1
+This project was designed as a decision-support system for a Supplier Operations Support (SOS) function. It combines chargeback rule logic, KPI modeling, dispute analysis, and executive reporting to surface high-risk suppliers, validate penalty programs, and improve operational accountability across North America and EMEA.
 
-### Impact:
-• Identified high-risk suppliers contributing to ~40% of penalties  
-• Reduced false-positive disputes via validation logic  
-• Enabled regional and supplier-level accountability
+---
 
-### Tech Stack:
-• SQL: Chargeback logic, joins, aggregations
-• Python: Data simulation, preprocessing
-• Tableau: KPI dashboards
-• Data Model: Supplier, PO, Receiving, Violations
+## Problem Statement
 
-### Key Logic Built:
-• Chargeback detection (ASN mismatch, packaging, quantity issues)
-• Dispute validation logic
-• KPI calculations (OTIF, Compliance %, Dispute Rate)
+Supplier chargeback programs are often operationally noisy: non-compliance events are distributed across suppliers, regions, and violation types; dispute outcomes can obscure true root causes; and leadership frequently lacks a unified view of chargeback exposure, compliance trends, and supplier performance.
 
-### Pipeline Flow:
-Raw Data → Cleaned → Chargeback Logic → KPI Layer → Dashboard
+The objective of this project is to build an analytical system that answers four questions:
 
-## Key numbers:
-- 8,000 shipment events simulated across 15 months
-- 8 violation types: ASN errors, packaging deviations, OTIF misses, quantity mismatches
-- False positive suppression engine — 20% of flagged events correctly suppressed
-- Composite risk score per supplier using OTIF, ASN accuracy and compliance rate
-- 4 Tableau-ready datasets powering 5 dashboard views
+1. Which suppliers drive the largest share of chargeback exposure?
+2. Where are compliance and OTIF performance deteriorating?
+3. How effective is current dispute handling?
+4. Which suppliers should be prioritized for operational intervention?
 
-## How to run:
-pip install pandas numpy jupyter
-jupyter notebook
-Run notebooks in order: 01 → 02 → 03 → 04
+---
 
-## Files:
-data/supplier_master.csv       — 120 suppliers
-data/shipment_events.csv       — 8,000 events with chargeback flags
-data/supplier_scorecards.csv   — KPI rollup per supplier
-data/monthly_trends.csv        — violation trends by month
-data/dispute_summary.csv       — dispute resolution tracking
-data/regional_summary.csv      — NA vs EMEA comparison
+## Solution Overview
+
+The project implements a lightweight analytics pipeline that:
+
+- integrates supplier, purchase order, receiving, and violation data,
+- applies chargeback logic to quantify penalty exposure,
+- computes KPI layers for compliance, OTIF, disputes, and supplier risk,
+- and presents the results through an executive Tableau dashboard.
+
+The output is a business-facing analytics artifact that supports chargeback validation, supplier monitoring, and regional performance management.
+
+---
+
+## Repository Structure
+
+```text
+01_supplier_master.ipynb      # Supplier master preparation and reference data
+02_po_receiving.ipynb         # PO / receiving integration and operational data prep
+03_chargeback_logic.ipynb     # Chargeback rule logic and penalty attribution
+04_kpi_analysis.ipynb         # KPI computation, trend analysis, and dashboard-ready outputs
+README.md

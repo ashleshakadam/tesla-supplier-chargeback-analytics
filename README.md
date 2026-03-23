@@ -10,7 +10,21 @@ Tableau Public: https://public.tableau.com/newWorkbook/dda1abd7-82d9-4afd-8041-9
 ### Impact:
 • Identified high-risk suppliers contributing to ~40% of penalties  
 • Reduced false-positive disputes via validation logic  
-• Enabled regional and supplier-level accountability  
+• Enabled regional and supplier-level accountability
+
+### Tech Stack:
+• SQL: Chargeback logic, joins, aggregations
+• Python: Data simulation, preprocessing
+• Tableau: KPI dashboards
+• Data Model: Supplier, PO, Receiving, Violations
+
+### Key Logic Built:
+• Chargeback detection (ASN mismatch, packaging, quantity issues)
+• Dispute validation logic
+• KPI calculations (OTIF, Compliance %, Dispute Rate)
+
+### Pipeline Flow:
+Raw Data → Cleaned → Chargeback Logic → KPI Layer → Dashboard
 
 ## Key numbers:
 - 8,000 shipment events simulated across 15 months

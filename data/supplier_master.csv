@@ -1,0 +1,121 @@
+supplier_id,supplier_name,region,primary_plant,tier,part_category,risk_profile,contract_value_usd,active_parts
+SUPP_001,Supplier_001,NA-East,Giga New York,Tier 3,Electronics,Medium,43411206,33
+SUPP_002,Supplier_002,NA-Central,Giga Texas,Tier 1,Fasteners,Low,2178443,75
+SUPP_003,Supplier_003,EMEA-Europe,Giga Berlin,Tier 2,Exterior Panels,Medium,16934414,62
+SUPP_004,Supplier_004,NA-West,Giga Fremont,Tier 2,Thermal Management,Low,9864231,31
+SUPP_005,Supplier_005,NA-West,Giga Fremont,Tier 1,Interior,Medium,45912533,144
+SUPP_006,Supplier_006,NA-West,Giga Fremont,Tier 1,Electronics,Medium,6334366,156
+SUPP_007,Supplier_007,NA-West,Giga Fremont,Tier 1,Exterior Panels,Low,28814694,13
+SUPP_008,Supplier_008,NA-West,Giga Fremont,Tier 2,Interior,Medium,2499657,28
+SUPP_009,Supplier_009,NA-Central,Giga Texas,Tier 1,Electronics,Medium,15172546,64
+SUPP_010,Supplier_010,NA-East,Giga New York,Tier 1,Battery Systems,High,34413819,159
+SUPP_011,Supplier_011,EMEA-Europe,Giga Berlin,Tier 1,Chassis & Frame,Low,2280798,148
+SUPP_012,Supplier_012,NA-West,Giga Fremont,Tier 2,Interior,Medium,13843768,171
+SUPP_013,Supplier_013,NA-West,Giga Fremont,Tier 3,Interior,Low,47565122,144
+SUPP_014,Supplier_014,EMEA-Europe,Giga Berlin,Tier 1,Thermal Management,Medium,28653498,61
+SUPP_015,Supplier_015,NA-West,Giga Fremont,Tier 3,Powertrain,Medium,30645908,155
+SUPP_016,Supplier_016,NA-East,Giga New York,Tier 3,Fasteners,High,19169062,6
+SUPP_017,Supplier_017,NA-West,Giga Fremont,Tier 1,Battery Systems,High,11214555,113
+SUPP_018,Supplier_018,EMEA-Europe,Giga Berlin,Tier 2,Fasteners,High,23333825,76
+SUPP_019,Supplier_019,NA-East,Giga New York,Tier 1,Interior,Low,10934052,60
+SUPP_020,Supplier_020,NA-East,Giga New York,Tier 1,Battery Systems,High,23088477,31
+SUPP_021,Supplier_021,EMEA-Europe,Giga Berlin,Tier 1,Exterior Panels,Low,6724068,102
+SUPP_022,Supplier_022,NA-West,Giga Fremont,Tier 2,Electronics,Medium,6990526,96
+SUPP_023,Supplier_023,NA-West,Giga Fremont,Tier 1,Battery Systems,High,23582477,159
+SUPP_024,Supplier_024,EMEA-Europe,Giga Berlin,Tier 1,Battery Systems,Low,18251694,16
+SUPP_025,Supplier_025,NA-East,Giga New York,Tier 1,Electronics,Medium,49471471,122
+SUPP_026,Supplier_026,NA-West,Giga Fremont,Tier 2,Electronics,Low,36485658,36
+SUPP_027,Supplier_027,EMEA-Europe,Giga Berlin,Tier 2,Powertrain,Low,25903012,25
+SUPP_028,Supplier_028,NA-West,Giga Fremont,Tier 1,Fasteners,Medium,37546819,80
+SUPP_029,Supplier_029,NA-West,Giga Fremont,Tier 1,Fasteners,High,42687302,163
+SUPP_030,Supplier_030,NA-East,Giga New York,Tier 2,Interior,High,24768915,152
+SUPP_031,Supplier_031,NA-West,Giga Fremont,Tier 1,Electronics,Low,13404268,22
+SUPP_032,Supplier_032,APAC-China,Giga Shanghai,Tier 2,Electronics,Low,3575222,174
+SUPP_033,Supplier_033,APAC-China,Giga Shanghai,Tier 2,Battery Systems,Low,15793994,79
+SUPP_034,Supplier_034,NA-East,Giga New York,Tier 1,Interior,High,5854748,64
+SUPP_035,Supplier_035,NA-Central,Giga Texas,Tier 2,Interior,Low,7278091,102
+SUPP_036,Supplier_036,APAC-China,Giga Shanghai,Tier 1,Electronics,Medium,19154492,121
+SUPP_037,Supplier_037,EMEA-Europe,Giga Berlin,Tier 3,Fasteners,Low,43160060,98
+SUPP_038,Supplier_038,NA-Central,Giga Texas,Tier 1,Battery Systems,Low,11415531,99
+SUPP_039,Supplier_039,NA-East,Giga New York,Tier 3,Thermal Management,Low,24341813,58
+SUPP_040,Supplier_040,NA-Central,Giga Texas,Tier 1,Thermal Management,High,45474694,73
+SUPP_041,Supplier_041,APAC-China,Giga Shanghai,Tier 1,Powertrain,Medium,47598363,179
+SUPP_042,Supplier_042,NA-West,Giga Fremont,Tier 3,Electronics,Medium,43988918,23
+SUPP_043,Supplier_043,NA-Central,Giga Texas,Tier 1,Chassis & Frame,Low,41378089,167
+SUPP_044,Supplier_044,NA-Central,Giga Texas,Tier 2,Chassis & Frame,Medium,11984920,141
+SUPP_045,Supplier_045,APAC-China,Giga Shanghai,Tier 1,Interior,Low,49430871,67
+SUPP_046,Supplier_046,NA-East,Giga New York,Tier 1,Thermal Management,Low,11465755,123
+SUPP_047,Supplier_047,NA-Central,Giga Texas,Tier 2,Electronics,High,25964823,74
+SUPP_048,Supplier_048,EMEA-Europe,Giga Berlin,Tier 1,Electronics,Low,43449656,147
+SUPP_049,Supplier_049,NA-West,Giga Fremont,Tier 2,Electronics,Low,15238124,180
+SUPP_050,Supplier_050,EMEA-Europe,Giga Berlin,Tier 2,Interior,Medium,22262245,19
+SUPP_051,Supplier_051,NA-West,Giga Fremont,Tier 2,Exterior Panels,Medium,15871155,13
+SUPP_052,Supplier_052,EMEA-Europe,Giga Berlin,Tier 2,Battery Systems,Low,21669695,107
+SUPP_053,Supplier_053,APAC-China,Giga Shanghai,Tier 3,Electronics,Low,18467786,21
+SUPP_054,Supplier_054,NA-West,Giga Fremont,Tier 3,Interior,Medium,14658818,150
+SUPP_055,Supplier_055,NA-West,Giga Fremont,Tier 1,Interior,Medium,48678411,85
+SUPP_056,Supplier_056,APAC-China,Giga Shanghai,Tier 1,Battery Systems,Low,14769125,172
+SUPP_057,Supplier_057,EMEA-Europe,Giga Berlin,Tier 3,Exterior Panels,Medium,34002842,106
+SUPP_058,Supplier_058,APAC-China,Giga Shanghai,Tier 3,Battery Systems,Low,43641058,122
+SUPP_059,Supplier_059,APAC-China,Giga Shanghai,Tier 2,Electronics,Low,10087950,72
+SUPP_060,Supplier_060,APAC-China,Giga Shanghai,Tier 3,Powertrain,Low,9870432,68
+SUPP_061,Supplier_061,NA-Central,Giga Texas,Tier 2,Exterior Panels,High,38172777,142
+SUPP_062,Supplier_062,NA-West,Giga Fremont,Tier 1,Thermal Management,Low,18132290,154
+SUPP_063,Supplier_063,EMEA-Europe,Giga Berlin,Tier 2,Fasteners,Medium,29251707,154
+SUPP_064,Supplier_064,NA-East,Giga New York,Tier 2,Electronics,Low,27303314,97
+SUPP_065,Supplier_065,NA-West,Giga Fremont,Tier 1,Thermal Management,High,15218366,40
+SUPP_066,Supplier_066,NA-East,Giga New York,Tier 3,Electronics,Medium,34693730,131
+SUPP_067,Supplier_067,NA-Central,Giga Texas,Tier 2,Exterior Panels,High,6600827,17
+SUPP_068,Supplier_068,NA-West,Giga Fremont,Tier 1,Interior,Low,7858428,44
+SUPP_069,Supplier_069,NA-Central,Giga Texas,Tier 1,Interior,Medium,42607191,45
+SUPP_070,Supplier_070,NA-West,Giga Fremont,Tier 3,Interior,Low,46166321,113
+SUPP_071,Supplier_071,APAC-China,Giga Shanghai,Tier 1,Chassis & Frame,Medium,40524332,21
+SUPP_072,Supplier_072,APAC-China,Giga Shanghai,Tier 1,Chassis & Frame,Low,26321297,102
+SUPP_073,Supplier_073,EMEA-Europe,Giga Berlin,Tier 1,Exterior Panels,Low,40489395,124
+SUPP_074,Supplier_074,NA-East,Giga New York,Tier 2,Electronics,Medium,36008262,69
+SUPP_075,Supplier_075,NA-West,Giga Fremont,Tier 2,Thermal Management,Low,37626361,7
+SUPP_076,Supplier_076,NA-West,Giga Fremont,Tier 1,Powertrain,Medium,46153046,34
+SUPP_077,Supplier_077,EMEA-Europe,Giga Berlin,Tier 2,Exterior Panels,Medium,46248808,142
+SUPP_078,Supplier_078,NA-East,Giga New York,Tier 1,Powertrain,High,18406335,169
+SUPP_079,Supplier_079,APAC-China,Giga Shanghai,Tier 2,Battery Systems,Medium,23328789,33
+SUPP_080,Supplier_080,NA-West,Giga Fremont,Tier 1,Thermal Management,Medium,20196460,116
+SUPP_081,Supplier_081,APAC-China,Giga Shanghai,Tier 1,Interior,Medium,11113787,121
+SUPP_082,Supplier_082,NA-East,Giga New York,Tier 2,Electronics,Medium,717789,72
+SUPP_083,Supplier_083,NA-Central,Giga Texas,Tier 1,Powertrain,High,34093765,50
+SUPP_084,Supplier_084,NA-West,Giga Fremont,Tier 1,Fasteners,Low,34569940,32
+SUPP_085,Supplier_085,NA-West,Giga Fremont,Tier 2,Chassis & Frame,Low,42463185,81
+SUPP_086,Supplier_086,APAC-China,Giga Shanghai,Tier 1,Thermal Management,Low,43379174,134
+SUPP_087,Supplier_087,NA-Central,Giga Texas,Tier 2,Fasteners,Low,41367299,55
+SUPP_088,Supplier_088,NA-West,Giga Fremont,Tier 3,Powertrain,Low,10756869,100
+SUPP_089,Supplier_089,EMEA-Europe,Giga Berlin,Tier 1,Interior,Medium,11341372,143
+SUPP_090,Supplier_090,NA-West,Giga Fremont,Tier 1,Thermal Management,High,36091432,5
+SUPP_091,Supplier_091,EMEA-Europe,Giga Berlin,Tier 1,Powertrain,High,40694490,87
+SUPP_092,Supplier_092,NA-East,Giga New York,Tier 1,Thermal Management,Medium,33289774,9
+SUPP_093,Supplier_093,NA-Central,Giga Texas,Tier 1,Exterior Panels,Medium,8007315,97
+SUPP_094,Supplier_094,NA-Central,Giga Texas,Tier 1,Chassis & Frame,Medium,21136923,66
+SUPP_095,Supplier_095,NA-West,Giga Fremont,Tier 1,Chassis & Frame,Low,4387292,66
+SUPP_096,Supplier_096,NA-East,Giga New York,Tier 1,Fasteners,Low,38574679,25
+SUPP_097,Supplier_097,EMEA-Europe,Giga Berlin,Tier 2,Interior,Low,6248105,129
+SUPP_098,Supplier_098,EMEA-Europe,Giga Berlin,Tier 2,Interior,Low,5144773,141
+SUPP_099,Supplier_099,NA-East,Giga New York,Tier 1,Powertrain,High,8939645,37
+SUPP_100,Supplier_100,APAC-China,Giga Shanghai,Tier 1,Powertrain,Medium,44775128,126
+SUPP_101,Supplier_101,NA-Central,Giga Texas,Tier 3,Chassis & Frame,Medium,37396694,47
+SUPP_102,Supplier_102,NA-Central,Giga Texas,Tier 3,Powertrain,Low,18287649,140
+SUPP_103,Supplier_103,NA-Central,Giga Texas,Tier 3,Exterior Panels,Medium,41207828,113
+SUPP_104,Supplier_104,NA-Central,Giga Texas,Tier 1,Chassis & Frame,Medium,14713536,143
+SUPP_105,Supplier_105,APAC-China,Giga Shanghai,Tier 1,Battery Systems,Medium,49484844,56
+SUPP_106,Supplier_106,NA-West,Giga Fremont,Tier 1,Interior,Low,48345195,84
+SUPP_107,Supplier_107,NA-West,Giga Fremont,Tier 1,Electronics,Low,27275919,176
+SUPP_108,Supplier_108,NA-Central,Giga Texas,Tier 1,Powertrain,Low,44112578,100
+SUPP_109,Supplier_109,EMEA-Europe,Giga Berlin,Tier 1,Interior,Medium,29900398,137
+SUPP_110,Supplier_110,NA-East,Giga New York,Tier 3,Exterior Panels,Medium,30798722,35
+SUPP_111,Supplier_111,EMEA-Europe,Giga Berlin,Tier 1,Powertrain,Medium,17136664,62
+SUPP_112,Supplier_112,NA-Central,Giga Texas,Tier 2,Electronics,Medium,4796705,91
+SUPP_113,Supplier_113,NA-East,Giga New York,Tier 2,Exterior Panels,High,1911585,155
+SUPP_114,Supplier_114,NA-Central,Giga Texas,Tier 1,Fasteners,Medium,37673044,63
+SUPP_115,Supplier_115,EMEA-Europe,Giga Berlin,Tier 1,Battery Systems,Medium,39989547,61
+SUPP_116,Supplier_116,NA-East,Giga New York,Tier 1,Chassis & Frame,High,982569,23
+SUPP_117,Supplier_117,NA-East,Giga New York,Tier 1,Battery Systems,High,48002401,166
+SUPP_118,Supplier_118,NA-East,Giga New York,Tier 3,Fasteners,High,4450951,63
+SUPP_119,Supplier_119,NA-Central,Giga Texas,Tier 2,Chassis & Frame,Low,5023159,13
+SUPP_120,Supplier_120,NA-Central,Giga Texas,Tier 2,Chassis & Frame,Medium,22674680,23

@@ -1,0 +1,121 @@
+supplier_id,total_shipments,total_violations,chargebacks_issued,false_positives_suppressed,total_penalty_usd,disputes_raised,otif_rate,asn_accuracy_rate,supplier_name,tier,part_category,region,primary_plant,contract_value_usd,risk_profile,compliance_rate,fp_suppression_rate,risk_score,risk_tier
+SUPP_001,63,7,6,1,60837.71,0,1.0,0.9841,Supplier_001,Tier 3,Electronics,NA-East,Giga New York,43411206,Medium,0.9048,0.1429,40.8,Amber — Watch
+SUPP_002,56,3,3,0,2619.07,1,1.0,0.9821,Supplier_002,Tier 1,Fasteners,NA-Central,Giga Texas,2178443,Low,0.9464,0.0,37.5,Amber — Watch
+SUPP_003,76,11,10,1,21954.26,2,0.9737,0.9868,Supplier_003,Tier 2,Exterior Panels,EMEA-Europe,Giga Berlin,16934414,Medium,0.8684,0.0909,63.5,Orange — At Risk
+SUPP_004,64,3,2,1,1688.0,1,1.0,1.0,Supplier_004,Tier 2,Thermal Management,NA-West,Giga Fremont,9864231,Low,0.9688,0.3333,17.9,Green — Low Risk
+SUPP_005,56,3,3,0,51078.55,0,1.0,0.9821,Supplier_005,Tier 1,Interior,NA-West,Giga Fremont,45912533,Medium,0.9464,0.0,37.5,Amber — Watch
+SUPP_006,68,15,12,3,142074.28,5,1.0,0.9853,Supplier_006,Tier 1,Electronics,NA-West,Giga Fremont,6334366,Medium,0.8235,0.2,51.4,Orange — At Risk
+SUPP_007,65,4,2,2,22702.8,0,0.9846,1.0,Supplier_007,Tier 1,Exterior Panels,NA-West,Giga Fremont,28814694,Low,0.9692,0.5,27.3,Amber — Watch
+SUPP_008,59,12,8,4,34810.01,1,0.9661,0.9661,Supplier_008,Tier 2,Interior,NA-West,Giga Fremont,2499657,Medium,0.8644,0.3333,69.5,Orange — At Risk
+SUPP_009,64,8,8,0,34539.36,3,0.9688,0.9531,Supplier_009,Tier 1,Electronics,NA-Central,Giga Texas,15172546,Medium,0.875,0.0,75.7,Red — Critical
+SUPP_010,65,22,21,1,96511.25,8,0.9846,0.8923,Supplier_010,Tier 1,Battery Systems,NA-East,Giga New York,34413819,High,0.6769,0.0455,83.9,Red — Critical
+SUPP_011,72,2,1,1,900.73,1,1.0,1.0,Supplier_011,Tier 1,Chassis & Frame,EMEA-Europe,Giga Berlin,2280798,Low,0.9861,0.5,10.9,Green — Low Risk
+SUPP_012,70,6,6,0,33644.75,3,1.0,0.9714,Supplier_012,Tier 2,Interior,NA-West,Giga Fremont,13843768,Medium,0.9143,0.0,44.7,Amber — Watch
+SUPP_013,76,4,4,0,42521.87,1,0.9868,1.0,Supplier_013,Tier 3,Interior,NA-West,Giga Fremont,47565122,Low,0.9474,0.0,38.9,Amber — Watch
+SUPP_014,63,4,3,1,31073.7,0,1.0,1.0,Supplier_014,Tier 1,Thermal Management,EMEA-Europe,Giga Berlin,28653498,Medium,0.9524,0.25,23.4,Green — Low Risk
+SUPP_015,73,12,9,3,44310.82,2,0.9726,0.9726,Supplier_015,Tier 3,Powertrain,NA-West,Giga Fremont,30645908,Medium,0.8767,0.25,63.0,Orange — At Risk
+SUPP_016,65,21,19,2,74354.88,5,0.9385,0.8923,Supplier_016,Tier 3,Fasteners,NA-East,Giga New York,19169062,High,0.7077,0.0952,93.0,Red — Critical
+SUPP_017,59,19,18,1,70639.09,8,0.9492,0.9153,Supplier_017,Tier 1,Battery Systems,NA-West,Giga Fremont,11214555,High,0.6949,0.0526,92.5,Red — Critical
+SUPP_018,63,17,17,0,83105.33,5,0.9841,0.8571,Supplier_018,Tier 2,Fasteners,EMEA-Europe,Giga Berlin,23333825,High,0.7302,0.0,83.7,Red — Critical
+SUPP_019,67,4,1,3,17724.13,0,1.0,1.0,Supplier_019,Tier 1,Interior,NA-East,Giga New York,10934052,Low,0.9851,0.75,11.2,Green — Low Risk
+SUPP_020,72,19,16,3,56519.16,3,0.9722,0.9167,Supplier_020,Tier 1,Battery Systems,NA-East,Giga New York,23088477,High,0.7778,0.1579,80.8,Red — Critical
+SUPP_021,56,6,3,3,13368.74,0,0.9643,1.0,Supplier_021,Tier 1,Exterior Panels,EMEA-Europe,Giga Berlin,6724068,Low,0.9464,0.5,43.2,Amber — Watch
+SUPP_022,79,7,5,2,38619.41,1,1.0,0.9873,Supplier_022,Tier 2,Electronics,NA-West,Giga Fremont,6990526,Medium,0.9367,0.2857,30.8,Amber — Watch
+SUPP_023,71,25,22,3,103358.61,4,0.9718,0.9014,Supplier_023,Tier 1,Battery Systems,NA-West,Giga Fremont,23582477,High,0.6901,0.12,88.1,Red — Critical
+SUPP_024,66,7,6,1,76121.73,3,0.9545,1.0,Supplier_024,Tier 1,Battery Systems,EMEA-Europe,Giga Berlin,18251694,Low,0.9091,0.1429,56.5,Orange — At Risk
+SUPP_025,55,8,5,3,16909.56,1,1.0,0.9636,Supplier_025,Tier 1,Electronics,NA-East,Giga New York,49471471,Medium,0.9091,0.375,41.4,Amber — Watch
+SUPP_026,68,4,3,1,19897.53,0,1.0,1.0,Supplier_026,Tier 2,Electronics,NA-West,Giga Fremont,36485658,Low,0.9559,0.25,21.7,Green — Low Risk
+SUPP_027,72,6,4,2,3332.65,0,1.0,0.9722,Supplier_027,Tier 2,Powertrain,EMEA-Europe,Giga Berlin,25903012,Low,0.9444,0.3333,33.3,Amber — Watch
+SUPP_028,59,8,8,0,39260.27,4,0.9831,0.9661,Supplier_028,Tier 1,Fasteners,NA-West,Giga Fremont,37546819,Medium,0.8644,0.0,70.5,Orange — At Risk
+SUPP_029,76,18,16,2,99336.69,5,0.9737,0.9474,Supplier_029,Tier 1,Fasteners,NA-West,Giga Fremont,42687302,High,0.7895,0.1111,77.9,Red — Critical
+SUPP_030,74,28,25,3,152469.41,4,0.973,0.9054,Supplier_030,Tier 2,Interior,NA-East,Giga New York,24768915,High,0.6622,0.1071,88.0,Red — Critical
+SUPP_031,83,4,4,0,18397.86,1,0.988,0.9759,Supplier_031,Tier 1,Electronics,NA-West,Giga Fremont,13404268,Low,0.9518,0.0,43.5,Amber — Watch
+SUPP_032,56,3,2,1,29543.6,0,1.0,1.0,Supplier_032,Tier 2,Electronics,APAC-China,Giga Shanghai,3575222,Low,0.9643,0.3333,18.4,Green — Low Risk
+SUPP_033,49,2,2,0,26942.31,0,1.0,1.0,Supplier_033,Tier 2,Battery Systems,APAC-China,Giga Shanghai,15793994,Low,0.9592,0.0,26.2,Amber — Watch
+SUPP_034,68,20,15,5,49726.73,5,0.9706,0.9265,Supplier_034,Tier 1,Interior,NA-East,Giga New York,5854748,High,0.7794,0.25,79.1,Red — Critical
+SUPP_035,58,9,6,3,14268.22,0,0.9828,0.9655,Supplier_035,Tier 2,Interior,NA-Central,Giga Texas,7278091,Low,0.8966,0.3333,59.3,Orange — At Risk
+SUPP_036,78,9,8,1,17086.94,2,0.9615,0.9744,Supplier_036,Tier 1,Electronics,APAC-China,Giga Shanghai,19154492,Medium,0.8974,0.1111,66.5,Orange — At Risk
+SUPP_037,64,1,1,0,408.05,0,1.0,1.0,Supplier_037,Tier 3,Fasteners,EMEA-Europe,Giga Berlin,43160060,Low,0.9844,0.0,20.7,Green — Low Risk
+SUPP_038,72,12,10,2,33293.28,2,0.9861,0.9444,Supplier_038,Tier 1,Battery Systems,NA-Central,Giga Texas,11415531,Low,0.8611,0.1667,65.2,Orange — At Risk
+SUPP_039,79,6,5,1,32150.5,2,0.962,1.0,Supplier_039,Tier 3,Thermal Management,NA-East,Giga New York,24341813,Low,0.9367,0.1667,49.9,Amber — Watch
+SUPP_040,79,29,25,4,67823.19,5,0.9747,0.9494,Supplier_040,Tier 1,Thermal Management,NA-Central,Giga Texas,45474694,High,0.6835,0.1379,81.9,Red — Critical
+SUPP_041,76,15,13,2,61789.36,1,0.9868,0.9342,Supplier_041,Tier 1,Powertrain,APAC-China,Giga Shanghai,47598363,Medium,0.8289,0.1333,69.5,Orange — At Risk
+SUPP_042,74,11,9,2,21489.18,2,0.973,0.973,Supplier_042,Tier 3,Electronics,NA-West,Giga Fremont,43988918,Medium,0.8784,0.1818,62.9,Orange — At Risk
+SUPP_043,69,3,2,1,569.28,1,1.0,0.971,Supplier_043,Tier 1,Chassis & Frame,NA-Central,Giga Texas,41378089,Low,0.971,0.3333,25.0,Green — Low Risk
+SUPP_044,67,8,6,2,26871.28,0,1.0,0.9851,Supplier_044,Tier 2,Chassis & Frame,NA-Central,Giga Texas,11984920,Medium,0.9104,0.25,37.1,Amber — Watch
+SUPP_045,69,2,2,0,47395.32,0,1.0,0.9855,Supplier_045,Tier 1,Interior,APAC-China,Giga Shanghai,49430871,Low,0.971,0.0,28.1,Amber — Watch
+SUPP_046,67,5,4,1,33516.89,0,1.0,1.0,Supplier_046,Tier 1,Thermal Management,NA-East,Giga New York,11465755,Low,0.9403,0.2,28.3,Amber — Watch
+SUPP_047,76,23,21,2,50450.59,4,0.9868,0.9079,Supplier_047,Tier 2,Electronics,NA-Central,Giga Texas,25964823,High,0.7237,0.087,76.1,Red — Critical
+SUPP_048,68,6,6,0,44199.29,1,1.0,0.9706,Supplier_048,Tier 1,Electronics,EMEA-Europe,Giga Berlin,43449656,Low,0.9118,0.0,46.1,Amber — Watch
+SUPP_049,58,4,3,1,28389.36,1,0.9828,1.0,Supplier_049,Tier 2,Electronics,NA-West,Giga Fremont,15238124,Low,0.9483,0.25,38.9,Amber — Watch
+SUPP_050,61,9,8,1,38795.51,3,1.0,0.9508,Supplier_050,Tier 2,Interior,EMEA-Europe,Giga Berlin,22262245,Medium,0.8689,0.1111,55.3,Orange — At Risk
+SUPP_051,76,13,12,1,20076.41,4,1.0,0.9079,Supplier_051,Tier 2,Exterior Panels,NA-West,Giga Fremont,15871155,Medium,0.8421,0.0769,64.1,Orange — At Risk
+SUPP_052,61,5,5,0,40369.76,1,1.0,0.9672,Supplier_052,Tier 2,Battery Systems,EMEA-Europe,Giga Berlin,21669695,Low,0.918,0.0,46.0,Amber — Watch
+SUPP_053,68,6,4,2,62252.94,2,1.0,1.0,Supplier_053,Tier 3,Electronics,APAC-China,Giga Shanghai,18467786,Low,0.9412,0.3333,25.9,Amber — Watch
+SUPP_054,47,5,3,2,23810.63,1,1.0,1.0,Supplier_054,Tier 3,Interior,NA-West,Giga Fremont,14658818,Medium,0.9362,0.4,26.4,Amber — Watch
+SUPP_055,59,9,8,1,11438.87,0,1.0,0.9322,Supplier_055,Tier 1,Interior,NA-West,Giga Fremont,48678411,Medium,0.8644,0.1111,58.2,Orange — At Risk
+SUPP_056,78,6,4,2,3035.76,1,1.0,0.9615,Supplier_056,Tier 1,Battery Systems,APAC-China,Giga Shanghai,14769125,Low,0.9487,0.3333,34.0,Amber — Watch
+SUPP_057,69,8,7,1,27539.46,2,0.9855,0.971,Supplier_057,Tier 3,Exterior Panels,EMEA-Europe,Giga Berlin,34002842,Medium,0.8986,0.125,55.5,Orange — At Risk
+SUPP_058,70,7,3,4,1412.64,0,1.0,1.0,Supplier_058,Tier 3,Battery Systems,APAC-China,Giga Shanghai,43641058,Low,0.9571,0.5714,18.2,Green — Low Risk
+SUPP_059,68,5,3,2,22853.01,1,1.0,1.0,Supplier_059,Tier 2,Electronics,APAC-China,Giga Shanghai,10087950,Low,0.9559,0.4,19.6,Green — Low Risk
+SUPP_060,64,5,3,2,20917.86,1,0.9844,1.0,Supplier_060,Tier 3,Powertrain,APAC-China,Giga Shanghai,9870432,Low,0.9531,0.4,32.5,Amber — Watch
+SUPP_061,75,22,20,2,135438.77,0,0.9733,0.9067,Supplier_061,Tier 2,Exterior Panels,NA-Central,Giga Texas,38172777,High,0.7333,0.0909,83.5,Red — Critical
+SUPP_062,63,4,3,1,43748.7,1,1.0,0.9841,Supplier_062,Tier 1,Thermal Management,NA-West,Giga Fremont,18132290,Low,0.9524,0.25,28.5,Amber — Watch
+SUPP_063,62,7,6,1,35243.08,0,0.9839,0.9677,Supplier_063,Tier 2,Fasteners,EMEA-Europe,Giga Berlin,29251707,Medium,0.9032,0.1429,59.1,Orange — At Risk
+SUPP_064,56,4,2,2,1431.15,0,1.0,0.9821,Supplier_064,Tier 2,Electronics,NA-East,Giga New York,27303314,Low,0.9643,0.5,23.1,Green — Low Risk
+SUPP_065,73,21,19,2,28285.76,6,0.9589,0.9178,Supplier_065,Tier 1,Thermal Management,NA-West,Giga Fremont,15218366,High,0.7397,0.0952,86.7,Red — Critical
+SUPP_066,66,8,8,0,25054.31,3,0.9848,0.9545,Supplier_066,Tier 3,Electronics,NA-East,Giga New York,34693730,Medium,0.8788,0.0,64.9,Orange — At Risk
+SUPP_067,65,23,19,4,80029.23,9,0.9846,0.9231,Supplier_067,Tier 2,Exterior Panels,NA-Central,Giga Texas,6600827,High,0.7077,0.1739,76.6,Red — Critical
+SUPP_068,67,1,1,0,12632.43,1,0.9851,1.0,Supplier_068,Tier 1,Interior,NA-West,Giga Fremont,7858428,Low,0.9851,0.0,29.7,Amber — Watch
+SUPP_069,51,8,8,0,44298.21,1,0.9804,0.9804,Supplier_069,Tier 1,Interior,NA-Central,Giga Texas,42607191,Medium,0.8431,0.0,71.5,Orange — At Risk
+SUPP_070,64,1,1,0,5363.04,0,1.0,1.0,Supplier_070,Tier 3,Interior,NA-West,Giga Fremont,46166321,Low,0.9844,0.0,20.7,Green — Low Risk
+SUPP_071,66,10,10,0,35383.85,1,0.9697,1.0,Supplier_071,Tier 1,Chassis & Frame,APAC-China,Giga Shanghai,40524332,Medium,0.8485,0.0,68.0,Orange — At Risk
+SUPP_072,82,6,3,3,1824.08,2,1.0,0.9878,Supplier_072,Tier 1,Chassis & Frame,APAC-China,Giga Shanghai,26321297,Low,0.9634,0.5,20.5,Green — Low Risk
+SUPP_073,79,4,2,2,4992.7,1,1.0,0.9873,Supplier_073,Tier 1,Exterior Panels,EMEA-Europe,Giga Berlin,40489395,Low,0.9747,0.5,17.6,Green — Low Risk
+SUPP_074,63,13,11,2,25818.85,1,0.9841,0.9524,Supplier_074,Tier 2,Electronics,NA-East,Giga New York,36008262,Medium,0.8254,0.1538,72.2,Orange — At Risk
+SUPP_075,68,1,1,0,1781.36,1,1.0,1.0,Supplier_075,Tier 2,Thermal Management,NA-West,Giga Fremont,37626361,Low,0.9853,0.0,19.5,Green — Low Risk
+SUPP_076,70,10,7,3,14721.74,1,1.0,0.9571,Supplier_076,Tier 1,Powertrain,NA-West,Giga Fremont,46153046,Medium,0.9,0.3,45.3,Amber — Watch
+SUPP_077,64,10,9,1,59339.4,3,1.0,0.9531,Supplier_077,Tier 2,Exterior Panels,EMEA-Europe,Giga Berlin,46248808,Medium,0.8594,0.1,58.0,Orange — At Risk
+SUPP_078,85,30,24,6,91909.96,3,0.9647,0.8824,Supplier_078,Tier 1,Powertrain,NA-East,Giga New York,18406335,High,0.7176,0.2,87.0,Red — Critical
+SUPP_079,67,10,9,1,85381.5,2,0.9552,1.0,Supplier_079,Tier 2,Battery Systems,APAC-China,Giga Shanghai,23328789,Medium,0.8657,0.1,65.2,Orange — At Risk
+SUPP_080,64,11,9,2,46401.8,4,0.9844,0.9531,Supplier_080,Tier 1,Thermal Management,NA-West,Giga Fremont,20196460,Medium,0.8594,0.1818,67.4,Orange — At Risk
+SUPP_081,75,8,5,3,5221.13,3,1.0,0.9733,Supplier_081,Tier 1,Interior,APAC-China,Giga Shanghai,11113787,Medium,0.9333,0.375,34.2,Amber — Watch
+SUPP_082,69,10,5,5,3535.74,3,1.0,0.971,Supplier_082,Tier 2,Electronics,NA-East,Giga New York,717789,Medium,0.9275,0.5,35.1,Amber — Watch
+SUPP_083,74,31,26,5,177196.6,7,0.973,0.9054,Supplier_083,Tier 1,Powertrain,NA-Central,Giga Texas,34093765,High,0.6486,0.1613,87.3,Red — Critical
+SUPP_084,74,4,4,0,3569.41,3,1.0,0.9865,Supplier_084,Tier 1,Fasteners,NA-West,Giga Fremont,34569940,Low,0.9459,0.0,36.1,Amber — Watch
+SUPP_085,48,2,2,0,2854.4,0,1.0,1.0,Supplier_085,Tier 2,Chassis & Frame,NA-West,Giga Fremont,42463185,Low,0.9583,0.0,26.5,Amber — Watch
+SUPP_086,67,4,3,1,7494.02,1,0.9851,0.9701,Supplier_086,Tier 1,Thermal Management,APAC-China,Giga Shanghai,43379174,Low,0.9552,0.25,40.9,Amber — Watch
+SUPP_087,80,4,2,2,11980.86,1,0.9875,0.9875,Supplier_087,Tier 2,Fasteners,NA-Central,Giga Texas,41367299,Low,0.975,0.5,24.2,Green — Low Risk
+SUPP_088,66,3,2,1,21092.58,1,1.0,1.0,Supplier_088,Tier 3,Powertrain,NA-West,Giga Fremont,10756869,Low,0.9697,0.3333,17.2,Green — Low Risk
+SUPP_089,49,6,5,1,4815.41,2,1.0,0.9592,Supplier_089,Tier 1,Interior,EMEA-Europe,Giga Berlin,11341372,Medium,0.898,0.1667,48.0,Amber — Watch
+SUPP_090,79,24,20,4,147426.28,3,0.9494,0.9494,Supplier_090,Tier 1,Thermal Management,NA-West,Giga Fremont,36091432,High,0.7468,0.1667,83.8,Red — Critical
+SUPP_091,64,13,9,4,27131.51,2,1.0,0.9531,Supplier_091,Tier 1,Powertrain,EMEA-Europe,Giga Berlin,40694490,High,0.8594,0.3077,53.7,Orange — At Risk
+SUPP_092,84,10,8,2,22364.13,2,1.0,0.9762,Supplier_092,Tier 1,Thermal Management,NA-East,Giga New York,33289774,Medium,0.9048,0.2,40.9,Amber — Watch
+SUPP_093,78,12,9,3,50486.24,2,0.9872,0.9872,Supplier_093,Tier 1,Exterior Panels,NA-Central,Giga Texas,8007315,Medium,0.8846,0.25,48.0,Amber — Watch
+SUPP_094,62,8,5,3,38267.64,1,1.0,0.9677,Supplier_094,Tier 1,Chassis & Frame,NA-Central,Giga Texas,21136923,Medium,0.9194,0.375,37.6,Amber — Watch
+SUPP_095,59,3,1,2,11582.19,0,1.0,1.0,Supplier_095,Tier 1,Chassis & Frame,NA-West,Giga Fremont,4387292,Low,0.9831,0.6667,12.4,Green — Low Risk
+SUPP_096,70,2,2,0,3329.72,0,1.0,0.9714,Supplier_096,Tier 1,Fasteners,NA-East,Giga New York,38574679,Low,0.9714,0.0,30.9,Amber — Watch
+SUPP_097,52,5,5,0,34489.84,3,1.0,0.9423,Supplier_097,Tier 2,Interior,EMEA-Europe,Giga Berlin,6248105,Low,0.9038,0.0,53.1,Orange — At Risk
+SUPP_098,66,4,3,1,7193.36,0,0.9848,1.0,Supplier_098,Tier 2,Interior,EMEA-Europe,Giga Berlin,5144773,Low,0.9545,0.25,32.8,Amber — Watch
+SUPP_099,71,23,21,2,110093.23,6,0.9577,0.9859,Supplier_099,Tier 1,Powertrain,NA-East,Giga New York,8939645,High,0.7042,0.087,79.9,Red — Critical
+SUPP_100,64,13,10,3,72358.54,4,0.9844,0.9375,Supplier_100,Tier 1,Powertrain,APAC-China,Giga Shanghai,44775128,Medium,0.8438,0.2308,69.7,Orange — At Risk
+SUPP_101,62,10,8,2,49913.9,3,0.9516,0.9839,Supplier_101,Tier 3,Chassis & Frame,NA-Central,Giga Texas,37396694,Medium,0.871,0.2,67.5,Orange — At Risk
+SUPP_102,62,3,3,0,1938.93,0,1.0,0.9677,Supplier_102,Tier 3,Powertrain,NA-Central,Giga Texas,18287649,Low,0.9516,0.0,39.5,Amber — Watch
+SUPP_103,70,7,6,1,7112.95,0,0.9857,0.9857,Supplier_103,Tier 3,Exterior Panels,NA-Central,Giga Texas,41207828,Medium,0.9143,0.1429,46.5,Amber — Watch
+SUPP_104,64,11,9,2,61389.46,1,0.9688,1.0,Supplier_104,Tier 1,Chassis & Frame,NA-Central,Giga Texas,14713536,Medium,0.8594,0.1818,63.0,Orange — At Risk
+SUPP_105,52,5,5,0,69615.02,0,0.9808,0.9808,Supplier_105,Tier 1,Battery Systems,APAC-China,Giga Shanghai,49484844,Medium,0.9038,0.0,60.9,Orange — At Risk
+SUPP_106,69,3,2,1,760.86,0,1.0,1.0,Supplier_106,Tier 1,Interior,NA-West,Giga Fremont,48345195,Low,0.971,0.3333,16.5,Green — Low Risk
+SUPP_107,53,1,1,0,2937.69,0,0.9811,1.0,Supplier_107,Tier 1,Electronics,NA-West,Giga Fremont,27275919,Low,0.9811,0.0,36.4,Amber — Watch
+SUPP_108,66,6,5,1,5658.72,0,0.9848,0.9697,Supplier_108,Tier 1,Powertrain,NA-Central,Giga Texas,44112578,Low,0.9242,0.1667,50.6,Orange — At Risk
+SUPP_109,56,8,7,1,22812.22,1,1.0,0.9821,Supplier_109,Tier 1,Interior,EMEA-Europe,Giga Berlin,29900398,Medium,0.875,0.125,47.7,Amber — Watch
+SUPP_110,73,13,9,4,67296.82,3,1.0,0.9863,Supplier_110,Tier 3,Exterior Panels,NA-East,Giga New York,30798722,Medium,0.8767,0.3077,41.6,Amber — Watch
+SUPP_111,56,6,5,1,41395.18,2,1.0,1.0,Supplier_111,Tier 1,Powertrain,EMEA-Europe,Giga Berlin,17136664,Medium,0.9107,0.1667,33.5,Amber — Watch
+SUPP_112,61,7,5,2,59157.52,1,0.9836,0.9836,Supplier_112,Tier 2,Electronics,NA-Central,Giga Texas,4796705,Medium,0.918,0.2857,48.5,Amber — Watch
+SUPP_113,71,26,24,2,60995.45,4,0.9718,0.9155,Supplier_113,Tier 2,Exterior Panels,NA-East,Giga New York,1911585,High,0.662,0.0769,89.8,Red — Critical
+SUPP_114,57,10,9,1,37475.1,1,0.9474,0.9474,Supplier_114,Tier 1,Fasteners,NA-Central,Giga Texas,37673044,Medium,0.8421,0.1,83.7,Red — Critical
+SUPP_115,69,10,8,2,48232.49,4,0.9855,0.971,Supplier_115,Tier 1,Battery Systems,EMEA-Europe,Giga Berlin,39989547,Medium,0.8841,0.2,55.6,Orange — At Risk
+SUPP_116,72,22,20,2,68012.92,6,0.9722,0.9028,Supplier_116,Tier 1,Chassis & Frame,NA-East,Giga New York,982569,High,0.7222,0.0909,86.4,Red — Critical
+SUPP_117,74,27,24,3,77648.27,8,0.9324,0.8919,Supplier_117,Tier 1,Battery Systems,NA-East,Giga New York,48002401,High,0.6757,0.1111,95.0,Red — Critical
+SUPP_118,61,15,14,1,106982.82,6,0.9836,0.9016,Supplier_118,Tier 3,Fasteners,NA-East,Giga New York,4450951,High,0.7705,0.0667,80.8,Red — Critical
+SUPP_119,58,2,1,1,7290.59,0,0.9828,1.0,Supplier_119,Tier 2,Chassis & Frame,NA-Central,Giga Texas,5023159,Low,0.9828,0.5,27.3,Amber — Watch
+SUPP_120,70,11,8,3,32547.56,3,0.9714,0.9571,Supplier_120,Tier 2,Chassis & Frame,NA-Central,Giga Texas,22674680,Medium,0.8857,0.2727,65.5,Orange — At Risk

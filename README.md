@@ -19,6 +19,10 @@ It supports:
 - dispute-ready evidence trails
 - KPI dashboards for supplier reviews and operational escalation
 
+<img width="1367" height="734" alt="image" src="https://github.com/user-attachments/assets/d0a58a9e-8ae3-4f71-9c37-fa00ed0a96b1" />
+
+#### Tableau URL: https://public.tableau.com/app/profile/ashlesha.sanjay.kadam/viz/TeslaSOS-SupplierChargebackComplianceIntelligence/TeslaSOS-SupplierChargebackComplianceIntelligence2
+
 ## Architecture
 The repository combines data preparation, analytical logic, and dashboard outputs:
 

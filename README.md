@@ -1,44 +1,76 @@
-# Tesla SOS — Supplier Chargeback & Compliance Intelligence
+# Supplier Chargeback Analytics
 
-An end-to-end supply chain analytics project that models supplier non-compliance, chargeback exposure, dispute outcomes, and regional performance using Python, SQL, and Tableau.
+## Overview
+A supply chain analytics project that models supplier non-compliance, chargeback exposure, and recoverable cost leakage using integrated operational data.
 
-This project was designed as a decision-support system for a Supplier Operations Support (SOS) function. It combines chargeback rule logic, KPI modeling, dispute analysis, and executive reporting to surface high-risk suppliers, validate penalty programs, and improve operational accountability across North America and EMEA.
+The project is structured around the type of workflow a manufacturing or logistics analytics team would use to validate chargeback logic, prioritize supplier risk, and support cross-functional reviews.
 
----
+## Business Problem
+Supplier non-compliance can create measurable downstream cost through delivery misses, receiving mismatches, quality issues, and process rework. In many organizations, the underlying evidence is scattered across ERP, manufacturing, and warehouse systems, making recovery inconsistent and labor-intensive.
 
-## Problem Statement
+The challenge is not only identifying chargeback candidates, but also building a defensible analytical framework that ties operational events to financial impact.
 
-Supplier chargeback programs are often operationally noisy: non-compliance events are distributed across suppliers, regions, and violation types; dispute outcomes can obscure true root causes; and leadership frequently lacks a unified view of chargeback exposure, compliance trends, and supplier performance.
+## Solution
+This project integrates SAP receiving data, MES defect signals, and WMS process records to construct a supplier performance and chargeback analytics layer.
 
-The objective of this project is to build an analytical system that answers four questions:
+It supports:
+- supplier-level non-compliance monitoring
+- chargeback candidate identification
+- dispute-ready evidence trails
+- KPI dashboards for supplier reviews and operational escalation
 
-1. Which suppliers drive the largest share of chargeback exposure?
-2. Where are compliance and OTIF performance deteriorating?
-3. How effective is current dispute handling?
-4. Which suppliers should be prioritized for operational intervention?
+## Architecture
+The repository combines data preparation, analytical logic, and dashboard outputs:
 
----
+- `data/` stores source tables and prepared inputs
+- `notebooks/` contains staged analysis for supplier master logic, PO-receiving integration, chargeback logic, and KPI analysis
+- `src/` contains reusable business logic and transformations
+- `tableau/` contains dashboard assets or references
 
-## Solution Overview
+## Methodology
 
-The project implements a lightweight analytics pipeline that:
+### Data Integration
+Merged supplier, purchase order, receiving, warehouse, and defect records into a unified analytical model.
 
-- integrates supplier, purchase order, receiving, and violation data,
-- applies chargeback logic to quantify penalty exposure,
-- computes KPI layers for compliance, OTIF, disputes, and supplier risk,
-- and presents the results through an executive Tableau dashboard.
+### Chargeback Logic
+Defined rule-based logic to identify recoverable events tied to non-compliance patterns.
 
-The output is a business-facing analytics artifact that supports chargeback validation, supplier monitoring, and regional performance management.
+### Performance Analytics
+Calculated KPIs across suppliers, parts, and fulfillment events to surface recurring loss drivers.
 
-Tableau: https://public.tableau.com/app/profile/ashlesha.sanjay.kadam/viz/TeslaSOS-SupplierChargebackComplianceIntelligence/TeslaSOS-SupplierChargebackComplianceIntelligence2
+### Dashboarding
+Developed Tableau views to support operational reviews, exception analysis, and prioritization.
 
----
+## Results
+Representative outcomes from this analytical design include:
+- clear identification of high-risk suppliers and repeat failure modes
+- improved ability to connect operational exceptions to financial recovery logic
+- a repeatable framework for supplier chargeback review and escalation
+
+## Tech Stack
+SQL, Python, Tableau
 
 ## Repository Structure
-
 ```text
-01_supplier_master.ipynb      # Supplier master preparation and reference data
-02_po_receiving.ipynb         # PO / receiving integration and operational data prep
-03_chargeback_logic.ipynb     # Chargeback rule logic and penalty attribution
-04_kpi_analysis.ipynb         # KPI computation, trend analysis, and dashboard-ready outputs
-README.md
+tesla-supplier-chargeback-analytics/
+├── data/
+├── notebooks/
+├── src/
+├── tableau/
+└── README.md
+```
+
+## How to Use
+	1.	prepare source datasets in the data/ directory
+	2.	execute notebook or script logic in sequence
+	3.	generate curated outputs for dashboard consumption
+	4.	publish or review KPI summaries in Tableau
+
+## Future Improvements
+	•	productionize the pipeline with scheduled refreshes
+	•	add supplier segmentation and risk scoring
+	•	incorporate dispute status and recovery realization tracking
+	•	formalize dimensional modeling for scale
+
+## Author
+Ashlesha Kadam
